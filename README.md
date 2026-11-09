@@ -1,66 +1,27 @@
-# Highway-inspection-and-maintenence-using-AI
-Problem Statement
+<p align="center"><img src="assets/portfolio-banner.svg" alt="Highway Defect Inspection — Computer vision for safer road maintenance" width="100%"></p>
 
-Manual highway inspection for damages such as potholes, cracks, faded kerb paint, and damaged crash barriers is time-consuming, costly, and prone to human error. This delays maintenance and increases the risk of accidents.
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Computer%20Vision-d94f91?style=for-the-badge" alt="Focus: computer vision">
+  <img src="https://img.shields.io/badge/Project%20assets-Demo%20%2B%20slides-e982b1?style=for-the-badge" alt="Project assets: demo and slides">
+</p>
 
-Objective
+# AI Highway Defect Inspection
 
-To develop an AI-based computer vision system that automatically detects and classifies highway defects from road images, enabling faster and safer road maintenance decisions.
+A computer-vision project exploring how road images can help identify surface damage and support maintenance planning.
 
-🔬 Methodology
+## Project idea
 
-Data Collection
+The project brief focuses on recognizing potholes, cracks, faded kerb paint, and damaged crash barriers. Its proposed workflow covers image collection and preparation, object detection, and a dashboard concept for reviewing detected defects and their priority.
 
-Collected images from Roboflow, Kaggle, and open-source datasets.
+## Project materials
 
-Categories: potholes, cracks, faded kerb paint, damaged crash barriers.
+- [Watch the demo video](Output%20(1).mp4)
+- [View the project presentation](PowerPoint%20Presentation.zip)
 
-Augmented data for varying lighting, weather, and road conditions.
+## Repository scope
 
-Preprocessing
+This repository currently contains a demo video, a presentation archive, and this project overview. Training code, datasets, and a runnable application are not included here, so reported performance figures are intentionally omitted.
 
-Removed blurry/unusable images.
+---
 
-Applied data augmentation (rotation, brightness, noise).
-
-Normalized images for training.
-
-Model Development
-
-Trained YOLOv5 (You Only Look Once) object detection model.
-
-Used transfer learning for better accuracy with limited data.
-
-Fine-tuned hyperparameters (epochs, batch size, confidence threshold).
-
-Evaluation
-
-Achieved mAP (Mean Average Precision): ~92%.
-
-High recall in pothole and crack detection.
-
-Deployment
-
-Built a simple web dashboard (Streamlit/Flask) to upload road images.
-
-Model outputs detected damages with bounding boxes + severity level.
-
-Suggested maintenance priority (urgent, moderate, low).
-
- Key Results
-
-Automated damage detection with real-time inference (<1 sec per image).
-
-Reduced manual inspection effort by ~70%.
-
-Helps prioritize repairs → improves road safety.
-
- Applications
-
-Government highway authorities.
-
-Road maintenance contractors.
-
-Smart city projects.
-
-Autonomous vehicle navigation (road condition awareness).
+<p align="center">More work: <a href="https://github.com/Anuuuuuuu18">github.com/Anuuuuuuu18</a> · Made with care in pink 🎀</p>
